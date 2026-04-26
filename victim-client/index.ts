@@ -2,7 +2,7 @@ import { ConvexClient } from "convex/browser";
 import { anyApi } from "convex/server";
 import { exec, spawn } from "child_process";
 import { promisify } from "util";
-import { readFileSync, readdirSync, writeFileSync, unlinkSync } from "fs";
+import { readdirSync, writeFileSync, unlinkSync } from "fs";
 import { resolve } from "path";
 import os from "os";
 import { fileURLToPath } from 'url';
