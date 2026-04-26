@@ -1,0 +1,21 @@
+{
+  "name": "victim-client",
+  "version": "1.0.0",
+  "description": "Prank victim client",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx --env-file .env index.ts"
+  },
+  "dependencies": {
+    "convex": "^1.11.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "esbuild": "^0.28.0",
+    "pkg": "^5.8.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}
