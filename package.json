@@ -7,7 +7,7 @@
     "dev": "concurrently -k -n convex,vite -c cyan,magenta \"convex dev\" \"vite dev\"",
     "dev:convex": "convex dev",
     "dev:vite": "vite dev",
-    "build": "npx convex deploy --cmd \"vite build && tsc --noEmit\" --cmd-url-env-var-name VITE_CONVEX_URL",
+    "build": "npx convex deploy --yes --cmd \"vite build && tsc --noEmit\" --cmd-url-env-var-name VITE_CONVEX_URL",
     "start": "node .output/server/index.mjs",
     "format": "prettier --write .",
     "lint": "tsc && eslint .  --ext ts,tsx --report-unused-disable-directives --max-warnings 0"

@@ -3,9 +3,7 @@ node_modules
 # Local Convex runtime (contains admin keys; use cloud URLs in .env.local for team/shared dev)
 .convex/
 
-!.env
-.env
-.env.local
+.env*
 .DS_Store
 .cache
 .vercel
